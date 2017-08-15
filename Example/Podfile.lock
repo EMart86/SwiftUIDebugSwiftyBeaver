@@ -2,7 +2,7 @@ PODS:
   - EMTransformableNavigationController (1.0.0)
   - SwiftUIDebug (1.0.1):
     - EMTransformableNavigationController
-  - SwiftUIDebugSwiftyBeaver (0.1.0):
+  - SwiftUIDebugSwiftyBeaver (1.0.0):
     - SwiftUIDebug
     - SwiftyBeaver
   - SwiftyBeaver (1.4.0)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   EMTransformableNavigationController: 6abc22718892b5bb8c54230895e1b1023abde54f
   SwiftUIDebug: 3499d062e0351ecd110d2fc3e60b9f9758779afb
-  SwiftUIDebugSwiftyBeaver: 519ae5baf54b61a4d6fc8f74dca6733e15fc47c4
+  SwiftUIDebugSwiftyBeaver: 02a72ca2c359d1c690a74a81cfc40a2a3769c3c2
   SwiftyBeaver: 78d9186ce7595b4400ce01e5fd750d263e72dd7b
 
 PODFILE CHECKSUM: 58a424037222d25165451824fcd5daf85c25251b
