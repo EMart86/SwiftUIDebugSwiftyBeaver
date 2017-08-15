@@ -14,11 +14,14 @@ import SwiftUIDebugSwiftyBeaver
 class ViewController: UIViewController {
     
     let log = SwiftyBeaver.self
-    let uiDestination = SwiftyUIDegubDestination()
+    let uiDestination = SwiftyUIDegubDestination.shared
+    let logProvider = LogProvider()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         log.addDestination(uiDestination)
+        
+        logProvider.start()
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58CD96A61F433E5F00376774 /* LogProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CD96A51F433E5F00376774 /* LogProvider.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		1153D3224979D85436B5F5F3 /* Pods_SwiftUIDebugSwiftyBeaver_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIDebugSwiftyBeaver_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		317364552915E31A652F4D6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		455E20C10BBF179E7827B00A /* Pods-SwiftUIDebugSwiftyBeaver_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDebugSwiftyBeaver_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftUIDebugSwiftyBeaver_Example/Pods-SwiftUIDebugSwiftyBeaver_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		58CD96A51F433E5F00376774 /* LogProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogProvider.swift; sourceTree = "<group>"; };
 		5B8CCFB9C4BB9C32C179C148 /* Pods-SwiftUIDebugSwiftyBeaver_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDebugSwiftyBeaver_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftUIDebugSwiftyBeaver_Tests/Pods-SwiftUIDebugSwiftyBeaver_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftUIDebugSwiftyBeaver_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDebugSwiftyBeaver_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				58CD96A51F433E5F00376774 /* LogProvider.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -363,6 +366,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				58CD96A61F433E5F00376774 /* LogProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
