@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftUIDebugSwiftyBeaver_Example' do
+  pod 'SwiftUIDebugSwiftyBeaver', :path => '../'
+
+  target 'SwiftUIDebugSwiftyBeaver_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
