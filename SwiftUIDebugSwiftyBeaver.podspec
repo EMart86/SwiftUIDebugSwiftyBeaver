@@ -8,36 +8,22 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftUIDebugSwiftyBeaver'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftUIDebugSwiftyBeaver.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.0.0'
+  s.summary          = 'A swifty beaver target for the SwiftUIDebug view controller'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A simple to use swifty beaver extension, for the SwiftUIDebug log view controller.
                        DESC
 
-  s.homepage         = 'https://github.com/eberl_ma@gmx.at/SwiftUIDebugSwiftyBeaver'
+  s.homepage         = 'https://github.com/EMart86/SwiftUIDebugSwiftyBeaver'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'eberl_ma@gmx.at' => 'martin.eberl@styria.com' }
-  s.source           = { :git => 'https://github.com/eberl_ma@gmx.at/SwiftUIDebugSwiftyBeaver.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Martin Eberl' => 'eberl_ma@gmx.at' }
+  s.source           = { :git => 'https://github.com/EMart86/SwiftUIDebugSwiftyBeaver.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SwiftUIDebugSwiftyBeaver/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SwiftUIDebugSwiftyBeaver' => ['SwiftUIDebugSwiftyBeaver/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
 
   s.dependency 'SwiftUIDebug'
   s.dependency 'SwiftyBeaver'
