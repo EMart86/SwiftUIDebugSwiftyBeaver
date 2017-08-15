@@ -7,18 +7,34 @@
 //
 
 import UIKit
+import SwiftUIDebug
+import SwiftyBeaver
+import SwiftUIDebugSwiftyBeaver
 
 class ViewController: UIViewController {
+    
+    let log = SwiftyBeaver.self
+    let uiDestination = SwiftyUIDegubDestination.shared
+    let logProvider = LogProvider()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        log.addDestination(uiDestination)
+        
+        logProvider.start()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            SwiftUIDebug.debugController(with: self,
+                                         viewModel: SwiftLogViewModel(provider: uiDestination))
+        }
+    }
+    
 }
 

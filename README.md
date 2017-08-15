@@ -17,12 +17,44 @@ SwiftUIDebugSwiftyBeaver is available through [CocoaPods](http://cocoapods.org).
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SwiftUIDebugSwiftyBeaver"
+pod 'SwiftUIDebugSwiftyBeaver'
+```
+
+## Usage
+
+Setup logger
+
+```Swift
+func setupLogger() {
+    let log = SwiftyBeaver.self
+    ..
+    log.addDestination(SwiftyUIDegubDestination.shared)
+}
+
+```
+
+Show logger
+
+```Swift
+override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    if motion == .motionShake {
+        SwiftUIDebug.debugController(with: self,
+                                     viewModel: SwiftLogViewModel(provider: SwiftyUIDegubDestination.shared))
+    }
+}
+
+```
+
+Add some logs
+
+```Swift
+log.debug("Hello World")
+
 ```
 
 ## Author
 
-eberl_ma@gmx.at, martin.eberl@styria.com
+Martin Eberl, eberl_ma@gmx.at
 
 ## License
 
