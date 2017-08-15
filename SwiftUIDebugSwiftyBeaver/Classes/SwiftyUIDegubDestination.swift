@@ -10,7 +10,7 @@ import Foundation
 import SwiftUIDebug
 import SwiftyBeaver
 
-final class SwiftyUIDegubDestination: BaseDestination, SwiftLogProviderProtocol {
+public final class SwiftyUIDegubDestination: BaseDestination, SwiftLogProviderProtocol {
     private var observers = [WeakObserver]()
     public private(set) var logs = [SwiftLogProtocol]() {
         didSet {
