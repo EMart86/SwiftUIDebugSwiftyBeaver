@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'SwiftUIDebugSwiftyBeaver_Example' do
   pod 'SwiftUIDebugSwiftyBeaver', :path => '../'
+  pod 'SwiftUIDebug'
+  pod 'SwiftyBeaver'
 
   target 'SwiftUIDebugSwiftyBeaver_Tests' do
     inherit! :search_paths
