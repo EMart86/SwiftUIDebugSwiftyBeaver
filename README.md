@@ -1,6 +1,6 @@
 # SwiftUIDebugSwiftyBeaver
 
-[![CI Status](http://img.shields.io/travis/emart86/SwiftUIDebugSwiftyBeaver.svg?style=flat)](https://travis-ci.org/emart86/SwiftUIDebugSwiftyBeaver)
+[![CI Status](http://img.shields.io/travis/EMart86/SwiftUIDebugSwiftyBeaver.svg?style=flat)](https://travis-ci.org/EMart86/SwiftUIDebugSwiftyBeaver)
 [![Version](https://img.shields.io/cocoapods/v/SwiftUIDebugSwiftyBeaver.svg?style=flat)](http://cocoapods.org/pods/SwiftUIDebugSwiftyBeaver)
 [![License](https://img.shields.io/cocoapods/l/SwiftUIDebugSwiftyBeaver.svg?style=flat)](http://cocoapods.org/pods/SwiftUIDebugSwiftyBeaver)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftUIDebugSwiftyBeaver.svg?style=flat)](http://cocoapods.org/pods/SwiftUIDebugSwiftyBeaver)
